@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPload</title>
+
+    <link rel="shortcut icon" href="../images/logo.png">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--SEO OPtimization-->
+    <meta name="keywords" content="Movies, Shows, Shop">
+
+
+    <!--CSS file-->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <!-- linking the bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+        <!-- grid -->
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-grid.min.css">
+        <!-- link to js -->
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<img src="../images/logo.png" width="60" height="50" id="logo-img">
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-blue" id="offer">
+    <a class="navbar-brand" href="#">
+        Real and Reel: Buy one get two free
+    </a>
+</nav>
+
+<div class="container-fluid" style="margin-top: 10px">
+    <a href="../index.html" class="btn btn-primary" id="nav-button">Back to Home Page</a>
+    <form action="#" method="post">
+
+        <!-- div groups -->
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label for="image">Movie Name</label>
+                <input type="text" name="moviename" id="moviename" placeholder="Movie Name" class="form-control">
+            </div>
+            <div class="col">
+                <label for="image" id="form-label">Lead Actor</label>
+                <input type="text" name="leadactor" placeholder="Leaad Actor" class="form-control">
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label for="brand" id="form-label">Duration</label>
+                <input type="number" name="duration" placeholder="Time in Hours" class="form-control" min="0">
+
+            </div>
+            <div class="col-sm-6">
+                <label for="" id="form-label">Movie Poster</label>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile" name="filename">
+                    <label class="custom-file-label" for="customFile">No File Selected</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row form-group">
+            <div class="col-sm-6">
+                <label for="" id="form-label">Rating</label>
+                <input type="text" name="rating" placeholder="PG" class="form-control">
+            </div>
+
+            <div class="col-sm-6">
+                <label for="" id="form-label">Genre</label>
+                <input type="text" name="genre" placeholder="Action" class="form-control">
+
+            </div>
+
+        </div>
+
+        <div class="row form-group">
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-block" name="save" id="save" value="Upload Movie">
+            </div>
+            <div class="col">
+                <input type="reset" class="btn btn-danger btn-block" value="Reset">
+
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>

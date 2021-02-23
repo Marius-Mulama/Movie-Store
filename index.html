@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Shop</title>
+
+    <link rel="shortcut icon" href="images/logo.png">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--SEO OPtimization-->
+    <meta name="keywords" content="Movies, Shows, Shop">
+
+
+    <!--CSS file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- linking the bootstrap css -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <!-- grid -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
+        <!-- link to js -->
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<img src="images/logo.png" width="60" height="50" id="logo-img">
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-blue" id="offer">
+    <a class="navbar-brand" href="#">
+        Real and Reel: Buy one get two free
+    </a>
+</nav>
+
+<div class="container-fluid" style="margin-top: 10px">
+    <a href="public/uploadMovie.html" class="btn btn-primary">Upload Movie</a>
+
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Movie Name</th>
+                <th scope="col">Time</th>
+                <th scope="col">Lead actor</th>
+                <th scope="col">movie Poster</th>
+                <th scope="col">Genre</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Avengers EndGame</td>
+                <td>2hrs</td>
+                <td>Robert Jr</td>
+                <td><img src="images/Avengers.jpg" height="70" width="60"></td>
+                <td>Action, Aci-Fi</td>
+                <td>PG</td>
+                <td>
+                    <input type="button" name="edit" class="btn btn-primary" value="Edit">
+                    <input type="button" name="delete" class="btn btn-danger" value="Delete">
+                </td>
+            </tr>
+
+            <tr>
+                <th scope="row">2</th>
+                <td>La Casa De Papel</td>
+                <td>2hrs</td>
+                <td>Alvaro Morte</td>
+                <td><img src="images/lacasa.jpg" height="70" width="60"></td>
+                <td>Action, Drama</td>
+                <td>PG</td>
+                <td>
+                    <input type="button" name="edit" class="btn btn-primary" value="Edit">
+                    <input type="button" name="delete" class="btn btn-danger" value="Delete">
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
